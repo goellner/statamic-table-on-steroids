@@ -1,7 +1,7 @@
 # statamic-table-on-steroids
 Adds CSV import to "table" fieldtype
 
-![Demo Animation](demo.gif?raw=true)
+![Demo Animation](https://github.com/goellner/statamic-table-on-steroids/raw/master/demo.gif?raw=true)
 
 ## Install
 
