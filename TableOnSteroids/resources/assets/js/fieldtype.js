@@ -1,10 +1,10 @@
-window.TableFieldtype = Vue.component('table-fieldtype');
+var steroidTableFieldtype = Vue.component('table-fieldtype');
 
 Vue.component('table_on_steroids-fieldtype', {
 
     mixins: [Fieldtype],
 
-    extends: TableFieldtype,
+    extends: steroidTableFieldtype,
 
     methods: {
         csvToJavascript() {
@@ -33,7 +33,7 @@ Vue.component('table_on_steroids-fieldtype', {
         getAdditionalTemplate() {
             return '' +
                     '<div>' +
-                        '<label>CSV data for Table</label>' +
+                        '<label>CSV data for table</label>' +
                         '<textarea v-model="csv" rows="4" style="width:100%; margin-bottom: 10px;"></textarea>' +
                         '<a class="btn btn-default" style="margin-bottom: 20px;" @click="csvToJavascript">Parse CSV</a>' +
                     '</div>'
