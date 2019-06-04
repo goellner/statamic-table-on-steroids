@@ -16,3 +16,9 @@ Instead of the default `table` you can use `table_on_steroids` as type.
     display: Tabelle
     type: table_on_steroids
 ```
+
+## Donate
+
+If you liked this project and want to buy me a beer:
+
+[![Beerpay](https://img.shields.io/beerpay/goellner/statamic-table-on-steroids.svg)](https://beerpay.io/goellner/statamic-table-on-steroids)
